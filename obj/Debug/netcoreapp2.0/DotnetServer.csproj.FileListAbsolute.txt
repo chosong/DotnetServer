@@ -1,0 +1,10 @@
+/Users/song/Song/2017/DotnetServer/bin/Debug/netcoreapp2.0/DotnetServer.deps.json
+/Users/song/Song/2017/DotnetServer/bin/Debug/netcoreapp2.0/DotnetServer.runtimeconfig.json
+/Users/song/Song/2017/DotnetServer/bin/Debug/netcoreapp2.0/DotnetServer.runtimeconfig.dev.json
+/Users/song/Song/2017/DotnetServer/bin/Debug/netcoreapp2.0/DotnetServer.dll
+/Users/song/Song/2017/DotnetServer/bin/Debug/netcoreapp2.0/DotnetServer.pdb
+/Users/song/Song/2017/DotnetServer/obj/Debug/netcoreapp2.0/DotnetServer.csproj.CoreCompileInputs.cache
+/Users/song/Song/2017/DotnetServer/obj/Debug/netcoreapp2.0/DotnetServer.AssemblyInfoInputs.cache
+/Users/song/Song/2017/DotnetServer/obj/Debug/netcoreapp2.0/DotnetServer.AssemblyInfo.cs
+/Users/song/Song/2017/DotnetServer/obj/Debug/netcoreapp2.0/DotnetServer.dll
+/Users/song/Song/2017/DotnetServer/obj/Debug/netcoreapp2.0/DotnetServer.pdb
