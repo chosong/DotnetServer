@@ -13904,11 +13904,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/song/Song/2017/DotnetServer/DotnetServer.csproj",
+      "projectUniqueName": "/Users/song/Song/2017/DotnetServer/DotnetServer/DotnetServer.csproj",
       "projectName": "DotnetServer",
-      "projectPath": "/Users/song/Song/2017/DotnetServer/DotnetServer.csproj",
+      "projectPath": "/Users/song/Song/2017/DotnetServer/DotnetServer/DotnetServer.csproj",
       "packagesPath": "/Users/song/.nuget/packages/",
-      "outputPath": "/Users/song/Song/2017/DotnetServer/obj/",
+      "outputPath": "/Users/song/Song/2017/DotnetServer/DotnetServer/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
