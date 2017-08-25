@@ -1,4 +1,4 @@
-﻿namespace DotnetProtocol
+﻿namespace DotnetPJ
 {
 	public enum RefreshType : sbyte
 	{

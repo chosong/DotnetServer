@@ -2,7 +2,7 @@
 using System.IO;
 using ProtoBuf;
 
-namespace DotnetProtocol
+namespace DotnetPJ
 {
 	[ProtoContract]
 	public class ErrorRes : ProtocolRes

@@ -14,25 +14,17 @@ namespace DotnetServer
     {
         public static void Main(string[] args)
         {
-            // BuildWebHost(args).Run();
-
+            ServerConfig.Load("Server.config");
+            
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
 				.UseIISIntegration()
 				.UseStartup<Startup>()
-				.UseUrls("http://*:8080")
+				.UseUrls(ServerConfig.ServerUrl)
 				.Build();
 
             host.Run();
         }
-
-        // public static IWebHost BuildWebHost(string[] args) =>
-        //     WebHost.CreateDefaultBuilder(args)
-        //         .UseKestrel()
-        //         .UseIISIntegration()
-		// 		.UseStartup<Startup>()
-		// 		.UseUrls("http://*:8080")
-        //         .Build();
     }
 }

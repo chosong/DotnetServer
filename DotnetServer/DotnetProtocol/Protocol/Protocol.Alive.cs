@@ -1,6 +1,6 @@
 ﻿using ProtoBuf;
 
-namespace DotnetProtocol
+namespace DotnetPJ
 {
 	[ProtoContract]
 	public class AliveReq : Protocol

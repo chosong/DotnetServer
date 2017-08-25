@@ -1,12 +1,11 @@
 using ProtoBuf;
 
-namespace DotnetProtocol
+namespace DotnetPJ
 {
 	public enum ProtocolId
 	{
 		None = 0,
 		Error = 99,
-
 		HandShake = 101,
 		Auth = 102,
 		Alive = 103,

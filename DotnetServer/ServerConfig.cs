@@ -47,4 +47,4 @@ public class ServerConfig
         RedisAuth = config.RedisAuth;
         RedisResponse = config.RedisResponse;
     }
-}ß
+}

@@ -1,8 +1,8 @@
-﻿namespace DotnetProtocol
+﻿namespace DotnetPJ
 {
 	public static class Version
 	{
-		public static readonly string Ver = "1.9.0.3";
+		public static readonly string Ver = "0.0.0.0";
 
 		public static ushort[] Vs { get; private set; }
 		public static ushort V1 { get { return Vs[0]; } }

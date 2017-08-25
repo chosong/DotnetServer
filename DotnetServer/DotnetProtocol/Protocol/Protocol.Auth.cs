@@ -1,6 +1,6 @@
 using ProtoBuf;
 
-namespace DotnetProtocol
+namespace DotnetPJ
 {
 	[ProtoContract]
 	public class AuthReq : Protocol
@@ -18,9 +18,7 @@ namespace DotnetProtocol
 		[ProtoMember(1)] public string AccountId { get; set; }
 		[ProtoMember(2)] public long Suid { get; set; }
 		[ProtoMember(3)] public uint Hash { get; set; }
-		// ServerVariable
-		[ProtoMember(5)] public int InventoryMaxValue { get; set; }
-
+	
 		public AuthRes() : base(ProtocolId.Auth) {}
 	}
 }
