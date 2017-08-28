@@ -9,6 +9,9 @@ namespace DotnetPJ
 		HandShake = 101,
 		Auth = 102,
 		Alive = 103,
+
+		RedisPing = 200,
+		MySqlPing = 201,
 	}
 
 	[ProtoContract]
@@ -16,6 +19,8 @@ namespace DotnetPJ
 	[ProtoInclude(101, typeof(HandShakeReq))]
 	[ProtoInclude(102, typeof(AuthReq))]
 	[ProtoInclude(103, typeof(AliveReq))]
+	[ProtoInclude(200, typeof(RedisPingReq))]
+	[ProtoInclude(201, typeof(MySqlPingReq))]
 
 	public partial class Protocol
 	{
@@ -30,6 +35,8 @@ namespace DotnetPJ
 	[ProtoInclude(101, typeof(HandShakeRes))]
 	[ProtoInclude(102, typeof(AuthRes))]
 	[ProtoInclude(103, typeof(AliveRes))]
+	[ProtoInclude(200, typeof(RedisPingRes))]
+	[ProtoInclude(201, typeof(MySqlPingRes))]
 
 	public partial class ProtocolRes
 	{

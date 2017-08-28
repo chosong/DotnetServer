@@ -14,7 +14,9 @@ namespace DotnetPJ
         private static readonly Dictionary<ProtocolId, IService> dicServices = new Dictionary<ProtocolId, IService>
         {
             { ProtocolId.HandShake, new ServiceHandShake() },
-            { ProtocolId.Auth, new ServiceAuth() }
+            { ProtocolId.Auth, new ServiceAuth() },
+            { ProtocolId.RedisPing, new ServiceMySqlPing() },
+            { ProtocolId.MySqlPing, new ServiceMySqlPing() }
         };
 
         public static async Task<ProtocolRes> ProcessAsync(HttpContext context, long suid, uint hash, Protocol request)
